@@ -1,8 +1,8 @@
 # Grouped Conditional Logit and Dirichlet-multinomial Regression 
-I wrote an R Program to estimate the parameters of a Grouped Conditional Logit (GCL) and Dirichlet-multinomial (DM) regression model in the context of modelling mutualistic networks.
+We developed an R Program to estimate the parameters of a Grouped Conditional Logit (GCL) and Dirichlet-multinomial (DM) regression model in the context of modelling mutualistic networks.
 The program consists of a main function named "dirmultreg" and a series of utility functions.  The optimization is performed using R's built-in "optim" function.
 
-Here I provide an example of how to use the "dirmultreg" function to analyze the artificial plant and pollinator data sets.  
+Here we provide an example of how to use the "dirmultreg" function to analyze the artificial plant and pollinator data sets.  
 
 Copy and paste the R program "dirmultreg R Program" into a .R script file and load the file into R so that the dirmultreg function is available for use:
 
